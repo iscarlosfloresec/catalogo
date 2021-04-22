@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    background: #eee;
+}
+.menu-navegacion__responsive{
+    display: none;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%), url(../img/perfil.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head {
+    padding: -30px -50px 0 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    color: #fff;
+}
+.menu-navegacion{
+    text-align: center;
+    padding: 30px;
+}
+.menu-navegacion a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.titulo {
+    font-weight: 600;
+    font-size: 80px;
+    color: #000; 
+}
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+    color: #444;
+    font-weight: 500;
+}
+.subtitulo {
+    text-align: center;
+    font-weight: 300;
+    color: #330;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item{
+    width:20%;
+    text-align: center;
+    margin:5px;
+    min-width: 290px;
+}
+.img-galeria{
+    width: 270px;
+    height: 370px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid red;
+    object-fit: cover;
+}
+.item-vinculos{
+    display: inline-block;
+    /*margin:20px 0 0;*/
+    width: 100%;
+    font-weight: 400;
+    background: #da3;
+
+    width: 270px;
+    align-items: center;
+    margin: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+/*.item a{
+    width: 270px;
+    align-items: center;
+    margin: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}*/
+
+footer{
+    background:#da3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #444;
+}
+.social-media-icon:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.titulo-final{
+    margin-top: 30px;
+    display: flex;
+    font-weight: 300;
+}
+.fecha{
+    font-weight: 300;
+    color: #444 ;
+}
